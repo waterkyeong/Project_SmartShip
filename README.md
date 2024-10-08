@@ -57,9 +57,8 @@
 |![image](https://github.com/user-attachments/assets/cbf8d215-d725-4f92-8f04-34539fa54293)|![image](https://github.com/user-attachments/assets/00504f82-c2c2-4a2b-8202-9f5f47f82fdc)|![image](https://github.com/user-attachments/assets/371ea399-2494-48f8-8f50-12a76e5eb999)|![image](https://github.com/user-attachments/assets/e6c4485e-8dd4-4aae-bc41-6d85399ea0b8)|
 |건강 정보 출력|게시글 CRUD 및 댓글 작성|관리자 권한 답변 작성|개인정보 및 찜한 병원(해제) 작성글|
 
+[![Watch the video](https://github.com/user-attachments/assets/37ef937e-c45e-415d-8793-32359c2f86ed)([https://www.youtube.com/watch?v=drF5rMgZzB0])
 
-[![Watch the video](https://img.youtube.com/vi/ccOyTW125Is/maxresdefault.jpg)]([https://www.youtube.com/watch?v=drF5rMgZzB0])
-https://youtu.be/drF5rMgZzB0 사실 이겁니다. 
 SMARTSHIP 시연 영상입니다.
 
 
