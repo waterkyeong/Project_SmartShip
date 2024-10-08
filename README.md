@@ -34,6 +34,27 @@
 - 기능: 예상 리드타임을 바탕으로 품목별 리드타임과 최적의 발주 날짜를 추천.
 - 기술: 텍스트는 BERT 임베딩, 수치형 피처는 인코딩 및 정규화를 통해 회귀 모델을 사용.
 - 성과 목표: RMSE 및 MAE 10 이하.
+
+  
+ 
+|Home|검색|병원 리스트|병원 정보|
+|---|---|---|---|
+|![image](https://github.com/user-attachments/assets/9b9edf92-73c9-4a6b-b944-daa79babfd22)|![image](https://github.com/user-attachments/assets/7946195f-34f4-4349-ae17-09cc8a6caf22)|![image](https://github.com/user-attachments/assets/d7277665-9476-4182-8f4c-a78d07f37adf)|![image](https://github.com/user-attachments/assets/70c3a9a8-3d26-43ec-b0c9-edf7c2e23b54)|
+|버튼 클릭 Link 연결|사용자 선택|선택에 따른 병원 리스트|세부정보, 지도, 찜하기|
+
+|건강백과사전|커뮤니티 게시판|QnA 게시판|마이페이지|
+|---|---|---|---|
+|![image](https://github.com/user-attachments/assets/cbf8d215-d725-4f92-8f04-34539fa54293)|![image](https://github.com/user-attachments/assets/00504f82-c2c2-4a2b-8202-9f5f47f82fdc)|![image](https://github.com/user-attachments/assets/371ea399-2494-48f8-8f50-12a76e5eb999)|![image](https://github.com/user-attachments/assets/e6c4485e-8dd4-4aae-bc41-6d85399ea0b8)|
+|건강 정보 출력|게시글 CRUD 및 댓글 작성|관리자 권한 답변 작성|개인정보 및 찜한 병원(해제) 작성글|
+
+
+[![Watch the video](https://www.youtube.com/watch?v=ccOyTW125Is)
+
+CAREFINDER 웹 페이지 시연 영상입니다.
+
+
+
+
   
 ## 📋 웹 서비스 기능
 - 1. 발주 현황 조회 및 입력
