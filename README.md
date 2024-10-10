@@ -189,7 +189,7 @@ SMARTSHIP 웹 페이지 시연 영상입니다.
 - member별 아이디 추가, 아이디 중복확인 기능 추가
 - flask와 연결할 카테고리 추천 페이지 생성
 - flask 연결 완료
-- '/finditem' 페이지에서 "saveToOrder/${orderdate}" 넘겨줄 때, 주문한 요일도 같이 넘기도록 추가
+- `/finditem` 페이지에서 "saveToOrder/${orderdate}" 넘겨줄 때, 주문한 요일도 같이 넘기도록 추가
 
 ### Sep 30, 2024
 - 카테고리 추천 모달 수정
@@ -205,14 +205,14 @@ SMARTSHIP 웹 페이지 시연 영상입니다.
 - `/ListSupplier2` 페이지에서 새로고침하면 뜨는 showAlert 에러 해결 (App.js에서 AlertProvider는 모든 라우트가 정의된 Routes 안에 있어야함 -> 자식 컴포넌트에서 useAlert를 안전하게 사용할 수 있게됨)
 
 ### Oct 3, 2024
-- 판매자 대시보드 '/SupplierBoard'에 차트 "itemSupplier" 추가 (물품목록의 카테고리를 category1,2,3에 따른 원그래프로 가시화)
-- 판매자 대시보드 '/SupplierBoard'에 차트 "itemTop10" 추가 (판매량이 가장 높은 10개의 상품에 대한 판매량을 막대그래프로 가시화)
+- 판매자 대시보드 `/SupplierBoard`에 차트 "itemSupplier" 추가 (물품목록의 카테고리를 category1,2,3에 따른 원그래프로 가시화)
+- 판매자 대시보드 `/SupplierBoard`에 차트 "itemTop10" 추가 (판매량이 가장 높은 10개의 상품에 대한 판매량을 막대그래프로 가시화)
 
 ### Oct 4, 2024
-- '/SupplierBoard'의 차트에서 fetch 받을 때 token 추가하여 각 공급업체에 해당하는 아이템만 띄우도록 수정
+- `/SupplierBoard`의 차트에서 fetch 받을 때 token 추가하여 각 공급업체에 해당하는 아이템만 띄우도록 수정
 - 차트 css 수정
 
 ### Oct 6, 2024
-- 판매자 대시보드 '/SupplierBoard'에 공지사항 추가
-- 판매자 대시보드 '/SupplierBoard'에 각 공급업체의 최근 3일치 주문요청내역 "itemOrderList" 추가
+- 판매자 대시보드 `/SupplierBoard`에 공지사항 추가
+- 판매자 대시보드 `/SupplierBoard`에 각 공급업체의 최근 3일치 주문요청내역 "itemOrderList" 추가
 - 생성한 페이지 로딩창, 경고창 추가하기
