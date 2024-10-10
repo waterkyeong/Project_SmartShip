@@ -69,7 +69,7 @@
 - 각 항목별 상세정보 수정 가능, 삭제 가능, 판매여부 변경 가능
 - 신규 상품 등록 기능 (카테고리 분류 모델 활용)
 
-[![Watch the video](https://img.youtube.com/vi/ccOyTW125Is/maxresdefault.jpg)([https://www.youtube.com/watch?v=drF5rMgZzB0])
+[![Watch the video](https://github.com/user-attachments/assets/37ef937e-c45e-415d-8793-32359c2f86ed)([https://www.youtube.com/watch?v=drF5rMgZzB0])
 
 SMARTSHIP 웹 페이지 시연 영상입니다.
 
