@@ -73,7 +73,7 @@
 
 SMARTSHIP 웹 페이지 시연 영상입니다.
 
-## Project Summary * 수정중 ~
+## Project Summary
 
 ### Aug 30, 2024
 - 프로젝트 리포지토리 관리 시작
