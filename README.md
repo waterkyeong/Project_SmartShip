@@ -73,7 +73,7 @@
 
 SMARTSHIP 웹 페이지 시연 영상입니다.
 
-## Project Summary * ~수정중~
+## Project Summary * 수정중 ~
 
 ### Aug 30, 2024
 - 프로젝트 리포지토리 관리 시작
@@ -168,13 +168,13 @@ SMARTSHIP 웹 페이지 시연 영상입니다.
 - Modal2.js를 컴포넌트로 따로 분리하여 코드 간소화
 
 ### Sep 23, 2024
-- `/ListSupplier`에서 해당 공급업체의 아이템만 가져올 때(물품 검색, 테이블 출력)에는 "/finditem/${itemId}"를, 전체 카테고리 목록 가져올 때(테이블의 각 행에서 카테고리 변경 시)에는 "/category1","/category2","/category3" RestAPI를 사용하도록 구분
+- `/ListSupplier2`에서 해당 공급업체의 아이템만 가져올 때(물품 검색, 테이블 출력)에는 "/finditem/${itemId}"를, 전체 카테고리 목록 가져올 때(테이블의 각 행에서 카테고리 변경 시)에는 "/category1","/category2","/category3" RestAPI를 사용하도록 구분
 - listtabledb에서 담은 물품이 없을때 담기가 불가하도록 수정
 - 판매자가 여러개인 상품에서 선택안했을 시 장바구니 담기 예외처리
 
 ### Sep 24, 2024
 - "/finditem"에서 판매여부도 넘겨받아 스위치 토글 버튼으로 가시화, 변경가능하도록 수
-- `/ListSupplier`에서 필터링, 검색기능, 전체선택 기능 고치기
+- `/ListSupplier2`에서 필터링, 검색기능, 전체선택 기능 고치기
 - textfield에서 검색 버튼 눌러야 해당하는 목록으로 필터링되도록 수정
 - 삭제("supplier/{itemsId}", 저장 ("supplier/items/{itemsId}")할 때, 여러 아이템을 한번에 삭제, 수정되도록 배열로 넘겨받도록 수정
 
@@ -190,3 +190,29 @@ SMARTSHIP 웹 페이지 시연 영상입니다.
 - flask와 연결할 카테고리 추천 페이지 생성
 - flask 연결 완료
 - '/finditem' 페이지에서 "saveToOrder/${orderdate}" 넘겨줄 때, 주문한 요일도 같이 넘기도록 추가
+
+### Sep 30, 2024
+- 카테고리 추천 모달 수정
+- Navi에 회원탈퇴 버튼 및 기 추가
+
+### Oct 1, 2024
+- `/ListSupplier2`의 새상품 등록 카테고리 추천 모달 완성
+
+### Oct 2, 2024
+- 생성한 페이지 로딩창, 경고창 추가하기
+- 신규상품등록에 입력값 비어있을때 경고창 띄우고 해당모달 그대로 띄워두도록 수정
+- `/ListSupplier2` 페이지 No.값 수정
+- `/ListSupplier2` 페이지에서 새로고침하면 뜨는 showAlert 에러 해결 (App.js에서 AlertProvider는 모든 라우트가 정의된 Routes 안에 있어야함 -> 자식 컴포넌트에서 useAlert를 안전하게 사용할 수 있게됨)
+
+### Oct 3, 2024
+- 판매자 대시보드 '/SupplierBoard'에 차트 "itemSupplier" 추가 (물품목록의 카테고리를 category1,2,3에 따른 원그래프로 가시화)
+- 판매자 대시보드 '/SupplierBoard'에 차트 "itemTop10" 추가 (판매량이 가장 높은 10개의 상품에 대한 판매량을 막대그래프로 가시화)
+
+### Oct 4, 2024
+- '/SupplierBoard'의 차트에서 fetch 받을 때 token 추가하여 각 공급업체에 해당하는 아이템만 띄우도록 수정
+- 차트 css 수정
+
+### Oct 6, 2024
+- 판매자 대시보드 '/SupplierBoard'에 공지사항 추가
+- 판매자 대시보드 '/SupplierBoard'에 각 공급업체의 최근 3일치 주문요청내역 "itemOrderList" 추가
+- 생성한 페이지 로딩창, 경고창 추가하기
