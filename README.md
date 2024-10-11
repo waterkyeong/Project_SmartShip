@@ -7,16 +7,13 @@
 &nbsp;
 
 ## 📈 개발 기간
-- 2024.08.26 - 2024.10.02.
+>2024.08.26 - 2024.10.02.
 
-<!-- 여기에 공백을 추가합니다 -->
-&nbsp;
-  
 ## 🔧 개발 환경
-- **언어 및 프레임워크:** Java 17.0.10, React 18.2.0, Spring Boot 2
-- **IDE:** STS4
-- **DB:** MySQL 8.0.37
-- **머신러닝/ 딥러닝:** BERT, BertTransformer, XGBClassifier, LightGBMregressor
+`언어 및 프레임워크:` Java 17.0.10, React 18.2.0, Spring Boot 2  
+`IDE:` STS4  
+`DB:` MySQL 8.0.37  
+`머신러닝/ 딥러닝:` BERT, BertTransformer, XGBClassifier, LightGBMregressor
 
 <!-- 여기에 공백을 추가합니다 -->
 &nbsp;
