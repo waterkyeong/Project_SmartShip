@@ -47,9 +47,9 @@
 - 예상 리드타임을 기준으로 통합 리드타임을 제공하며, 과거 리드타임 추이와 대체 품목을 추천.
   
  
-|Home|검색|병원 리스트|병원 정보|
+|Sign up/Sign in|(선박)구매요청 후 목록 확인|(해운선사)대시보드/발주요청 확인|(해운선사)발주목록 및 품목별 리드타임 확인|
 |---|---|---|---|
-|![image](https://github.com/user-attachments/assets/9b9edf92-73c9-4a6b-b944-daa79babfd22)|![image](https://github.com/user-attachments/assets/7946195f-34f4-4349-ae17-09cc8a6caf22)|![image](https://github.com/user-attachments/assets/d7277665-9476-4182-8f4c-a78d07f37adf)|![image](https://github.com/user-attachments/assets/70c3a9a8-3d26-43ec-b0c9-edf7c2e23b54)|
+|![로그인](https://github.com/user-attachments/assets/7e08dd1d-02d2-42ba-92b7-5e58028ef9ba)|![구매요청내역](https://github.com/user-attachments/assets/4409c019-2d13-4aba-8f91-ab03d3913868)|![해운선사대시보드+리드타임](https://github.com/user-attachments/assets/5de51580-b91c-459c-a8f8-c6bc43b828a1)|![발주목록확인+리드타임확인](https://github.com/user-attachments/assets/49229cf7-4cb4-446d-83f9-131d2eee12ec)|
 |버튼 클릭 Link 연결|사용자 선택|선택에 따른 병원 리스트|세부정보, 지도, 찜하기|
 
 |건강백과사전|커뮤니티 게시판|QnA 게시판|마이페이지|
