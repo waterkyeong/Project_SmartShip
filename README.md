@@ -64,8 +64,8 @@
 
 ## 📊 데이터 분석
 ### 모델 선택 및 학습
-- **카테고리 분류:** BERT 임베딩과 BertTransformer를 사용하여 'Machinery, Assembly, 청구품목, Part No.1' 결합하여 임베딩 생성.
-- **리드타임 예측:** Word2Vec 임베딩 및 리드타임 기반 추가 피처 생성, 창고입고일 기반 환율 등 추가 피처 생성.
+- **카테고리 분류:** BERT 임베딩과 BertTransformer를 사용하여 'Machinery, Assembly, 청구품목, Part No.1' 결합하여 텍스트 임베딩 생성.
+- **리드타임 예측:** 텍스트는 Word2Vec 임베딩, 수치형 피쳐는 리드타임 및 창고입고일 기반 환율 등 추가 피처 생성하여 사용.
 - **성능 평가 및 튜닝:** K-폴드 교차 검증, 하이퍼파라미터 조정, Dropout, L2 정규화.
 
 [데이터 분석 KPI 회고록 노션 페이지](https://www.notion.so/f881a47083ea4b4295ce94f2be6a3920)
