@@ -69,6 +69,19 @@
 - 각 항목별 상세정보 수정 가능, 삭제 가능, 판매여부 변경 가능
 - 신규 상품 등록 기능 (카테고리 분류 모델 활용)
 
+&nbsp;
+
+|Home|(선박)구매요청|(해운선사)대시보드|(해운선사)요청건별 품목 및 리드타임 확인-Model1|
+|---|---|---|---|
+|![로그인](https://github.com/user-attachments/assets/7e08dd1d-02d2-42ba-92b7-5e58028ef9ba)|![구매요청내역](https://github.com/user-attachments/assets/4409c019-2d13-4aba-8f91-ab03d3913868)|![해운선사대시보드+리드타임](https://github.com/user-attachments/assets/5de51580-b91c-459c-a8f8-c6bc43b828a1)|![발주목록확인+리드타임확인](https://github.com/user-attachments/assets/49229cf7-4cb4-446d-83f9-131d2eee12ec)|
+|선박/해운선사/공급업체 Role 별 회원가입 및 로그인 |선박은 창고출고일 지정 후 선사에 구매요청| 발주요청 품목 리스트 / 출고일정 / 리드타임 확인 가능|요청 건별 목록 조회|
+
+|(해운선사)대체상품 확인 |(해운선사)품목의 과거 리드타임 확인 |(공급업체)대시보드|(공급업체)기자재 등록-Model2|
+|---|---|---|---| 
+|![대체상품확인](https://github.com/user-attachments/assets/99bf4390-e584-4502-8d21-8c8dd4601ad9)|![품목별 과거리드타임확인](https://github.com/user-attachments/assets/62a2a0b7-f608-4c2e-8c55-73b0a2b086be)|![공급업체자기물건확인](https://github.com/user-attachments/assets/eeaffd17-445b-4a57-8798-cd2ac655d3fb)|![기자재 등록](https://github.com/user-attachments/assets/138ce76c-397f-4d4c-9c85-9738280ed41c)|
+|리드타임 over로 인하여 지정창고입고일에 입고가 불가능한 경우 alert=> 대체상품 추천|품목별 과거 리드타임 차트|공급업체로 들어온 주문 관리 및 조회|새로운 기자재 등록 시 카테고리 추천 분류|
+
+
 [![Watch the video](https://github.com/user-attachments/assets/37ef937e-c45e-415d-8793-32359c2f86ed)](https://www.youtube.com/watch?v=drF5rMgZzB0)
 
 SMARTSHIP 웹 페이지 시연 영상입니다.
@@ -154,7 +167,7 @@ SMARTSHIP 웹 페이지 시연 영상입니다.
 - ListTable 수정
 - `/ListTableDB`에서 공급업체로 로그인했을때에는 해당하는 공급업체에서 등록한 물품만 뜨지만 등록, 수정이 가능하기 위해서는 category, part 등은 db의 모든 항목을 받아와야하므로 restapi를 분리함
 - Order 수정
-- 화면 구성 변경 (기존에 선박에서 상품을 결정하여 공급업체(판매자), 가격이 확정되어 해운선사에 전달되는 시스템에서 ---> 선박에서 상품명과 수량, 요청사항을 전달하면 해운선사에서 리드타임, 요청사항을 바탕으로 상품을 결정하는 시스템으로 변경)
+- 화면 구성 변경 (기존에 선박에서 상품을 결정하여 공급업체(판매자), 가격이 확정되어 해운선사에 전달되는 시스템에서 -> 선박에서 상품명과 수량, 요청사항을 전달하면 해운선사에서 리드타임, 요청사항을 바탕으로 상품을 결정하는 시스템으로 변경)
 
 ### Sep 20, 2024
 - `/OrderTest`에서 백엔드 연결완료
@@ -173,7 +186,7 @@ SMARTSHIP 웹 페이지 시연 영상입니다.
 - 판매자가 여러개인 상품에서 선택안했을 시 장바구니 담기 예외처리
 
 ### Sep 24, 2024
-- "/finditem"에서 판매여부도 넘겨받아 스위치 토글 버튼으로 가시화, 변경가능하도록 수
+- "/finditem"에서 판매여부도 넘겨받아 스위치 토글 버튼으로 가시화, 변경가능하도록 수정
 - `/ListSupplier2`에서 필터링, 검색기능, 전체선택 기능 고치기
 - textfield에서 검색 버튼 눌러야 해당하는 목록으로 필터링되도록 수정
 - 삭제("supplier/{itemsId}", 저장 ("supplier/items/{itemsId}")할 때, 여러 아이템을 한번에 삭제, 수정되도록 배열로 넘겨받도록 수정
@@ -193,7 +206,7 @@ SMARTSHIP 웹 페이지 시연 영상입니다.
 
 ### Sep 30, 2024
 - 카테고리 추천 모달 수정
-- Navi에 회원탈퇴 버튼 및 기 추가
+- Navi에 회원탈퇴 버튼 및 기능 추가
 
 ### Oct 1, 2024
 - `/ListSupplier2`의 새상품 등록 카테고리 추천 모달 완성
