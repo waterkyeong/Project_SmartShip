@@ -88,6 +88,7 @@ SMARTSHIP 웹 페이지 시연 영상입니다.
 
 ## 📅 Aug 30, 2024
 - 프로젝트 생성 및 DB 설계
+- Figma로 화면구성
 - 프론트 달력, Modal, 테이블, 버튼 CSS, input 작업
 
 ## 📅 Sep 02, 2024
